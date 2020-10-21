@@ -1,0 +1,64 @@
+main {
+  .family-tree {
+    &.green {
+      .member {
+        //1세대 케니(헤나)
+        &:nth-child(1) {
+          grid-column: 2/3;
+          grid-row: 1/2;
+        }
+
+        //1세대 헤나
+        &:nth-child(2) {
+          grid-column: 1/2;
+          grid-row: 1/2;
+        }
+
+        //1세대 푸른
+        &:nth-child(3) {
+          grid-column: 5/6;
+          grid-row: 1/2;
+        }
+
+        //2세대 모니카
+        &:nth-child(4) {
+          grid-row: 2/2;
+        }
+        //2세대 피터
+        &:nth-child(5) {
+          grid-column: 4/5;
+          grid-row: 2/2;
+        }
+        //2세대 피스
+        &:nth-child(6) {
+          grid-column: 5/6;
+          grid-row: 2/2;
+        }
+        //3세대 와이엇
+        &:nth-child(7) {
+          grid-row: 3/3;
+        }
+        //2세대 매튜(모니카)
+        &:nth-child(8) {
+          grid-column: 2/3;
+          grid-row: 2/2;
+        }
+        //3세대 데릭
+        &:nth-child(9) {
+          grid-column: 3/4;
+          grid-row: 3/3;
+        }
+        //3세대 벨린더
+        &:nth-child(10) {
+          grid-column: 4/5;
+          grid-row: 3/3;
+        }
+        //3세대 올리비아
+        &:nth-child(11) {
+          grid-column: 1/2;
+          grid-row: 3/3;
+        }
+      }
+    }
+  }
+}

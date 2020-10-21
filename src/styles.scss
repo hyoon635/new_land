@@ -1,1 +1,189 @@
-/* You can add global styles to this file, and also import other style files */
+@import "scss/pink.scss";
+@import "scss/brown.scss";
+@import "scss/gold.scss";
+@import "scss/black.scss";
+@import "scss/silver.scss";
+@import "scss/red.scss";
+@import "scss/purple.scss";
+@import "scss/orange.scss";
+@import "scss/green.scss";
+@import "scss/blue.scss";
+
+body {
+  margin: 0;
+}
+
+$c-pink: #f199bc;
+$c-black: #090707;
+$c-brown: #754f44;
+$c-gold: #ffbc42;
+$c-silver: #a3a1a1;
+$c-red: #c03546;
+$c-purple: #9055a2;
+$c-orange: #e97f02;
+$c-green: #285943;
+$c-blue: #2b90d9;
+
+.pink-bg {
+  background-color: $c-pink;
+}
+
+.black-bg {
+  background-color: $c-black;
+}
+
+.brown-bg {
+  background-color: $c-brown;
+}
+
+.gold-bg {
+  background-color: $c-gold;
+}
+
+.silver-bg {
+  background-color: $c-silver;
+}
+
+.red-bg {
+  background-color: $c-red;
+}
+
+.purple-bg {
+  background-color: $c-purple;
+}
+
+.orange-bg {
+  background-color: $c-orange;
+}
+
+.green-bg {
+  background-color: $c-green;
+}
+
+.blue-bg {
+  background-color: $c-blue;
+}
+
+.pink-text {
+  color: $c-pink;
+}
+
+.black-text {
+  color: $c-black;
+}
+
+.brown-text {
+  color: $c-brown;
+}
+
+.gold-text {
+  color: $c-gold;
+}
+
+.silver-text {
+  color: $c-silver;
+}
+
+.red-text {
+  color: $c-red;
+}
+
+.purple-text {
+  color: $c-purple;
+}
+
+.orange-text {
+  color: $c-orange;
+}
+
+.green-text {
+  color: $c-green;
+}
+
+.blue-text {
+  color: $c-blue;
+}
+
+//프로필 이미지 테두리 스타일
+
+.pink-border {
+  border: 5px solid $c-pink;
+
+  &.owner {
+    background-color: #ffbbd6;
+  }
+}
+
+.black-border {
+  border: 5px solid $c-black;
+
+  &.owner {
+    background-color: #e3dede;
+  }
+}
+
+.brown-border {
+  border: 5px solid $c-brown;
+
+  &.owner {
+    background-color: #d09e88;
+  }
+}
+
+.gold-border {
+  border: 5px solid $c-gold;
+
+  &.owner {
+    background-color: #fff1b9;
+  }
+}
+
+.silver-border {
+  border: 5px solid $c-silver;
+
+  &.owner {
+    background-color: #e3dede;
+  }
+}
+
+.red-border {
+  border: 5px solid $c-red;
+
+  &.owner {
+    background-color: #F7AA97;
+  }
+}
+
+.purple-border {
+  border: 5px solid $c-purple;
+
+  &.owner {
+    background-color: #dedcee;
+  }
+}
+
+.orange-border {
+  border: 5px solid $c-orange;
+
+  &.owner {
+    background-color: #ffda8e;
+  }
+}
+
+.green-border {
+  border: 5px solid $c-green;
+
+  &.owner {
+    background-color: #cff0da;
+  }
+}
+
+.blue-border {
+  border: 5px solid $c-blue;
+
+  &.owner {
+    background-color: #d6ecfa;
+  }
+}
+
+//프로필 이미지 테두리 스타일

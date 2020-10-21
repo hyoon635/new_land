@@ -1,0 +1,179 @@
+@import "../../styles.scss";
+
+.family {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 3px solid #e0e3da;
+
+    &__item {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+
+      &.active {
+        font-size: 20px;
+        font-weight: bold;
+
+        &.pink {
+          color: $c-pink;
+        }
+
+        &.black {
+          color: $c-black;
+        }
+
+        &.brown {
+          color: $c-brown;
+        }
+
+        &.gold {
+          color: $c-gold;
+        }
+
+        &.silver {
+          color: $c-silver;
+        }
+
+        &.red {
+          color: $c-red;
+        }
+
+        &.purple {
+          color: $c-purple;
+        }
+
+        &.orange {
+          color: $c-orange;
+        }
+
+        &.green {
+          color: $c-green;
+        }
+        
+        &.blue {
+          color: $c-blue;
+        }
+      }
+    }
+  }
+}
+
+main {
+  position: relative;
+  height: calc(100vh - 112px);
+  overflow: hidden;
+  padding: 30px;
+
+  .family-title {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 30px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 300px;
+      height: 10px;
+      left: -30px;
+      bottom: -20px;
+      background-color: #fff;
+    }
+  }
+
+  .guide {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    background-color: #fff;
+    top: 12px;
+    right: 30px;
+
+    &__item {
+      img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .family-tree {
+    display: grid;
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    height: 500px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+
+    .member {
+      position: relative;
+      margin-bottom: 20px;
+      white-space: nowrap;
+
+      &__profile {
+        &__img {
+          width: 130px;
+          height: 160px;
+
+          &.death {
+            img {
+              filter: grayscale(100%);
+            }
+          }
+
+          img {
+            width: 130px;
+            height: 160px;
+          }
+        }
+
+        &__name {
+          width: 140px;
+          margin-top: 5px;
+          padding: 5px 0;
+          font-size: 18px;
+          font-weight: 500;
+          color: #fff;
+          text-align: center;
+          word-break: keep-all;
+        }
+      }
+
+      &__info {
+        margin-top: 5px;
+        font-size: 14px;
+
+        > div {
+          display: flex;
+          align-items: center;
+          margin-top: 5px;
+
+          img {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+          }
+        }
+
+        &__owner {
+          color: $c-gold;
+        }
+      }
+    }
+  }
+}

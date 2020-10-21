@@ -1,0 +1,131 @@
+<div class="fmaily">
+  <ul class="family__list">
+    <ng-container *ngFor="let fam of family">
+      <li
+        class="family__list__item {{ fam.family_eng }}"
+        (click)="selectFamily(fam.family_eng)"
+        [class.active]="fam.family_eng == selectedFamily"
+      >
+        {{ fam.family_eng }}
+      </li>
+    </ng-container>
+  </ul>
+</div>
+
+<main class="{{ selectedFamily }}-bg">
+  <div class="family-title {{ selectedFamily }}-text">
+    {{ title }}가문<br />({{ class }})
+  </div>
+  <div class="guide">
+    <div class="guide__item">
+      <img src="assets/icon/star.svg" alt="owner" />
+      <span class="owner">가주표시</span>
+    </div>
+    <div class="guide__item">
+      <img src="assets/icon/triangle.svg" alt="parent" />
+      <span class="parent">부모</span>
+    </div>
+    <div class="guide__item">
+      <img src="assets/icon/heart.svg" alt="couple" />
+      <span class="couple">부부</span>
+    </div>
+    <div class="guide__item">
+      <img src="assets/icon/asterisk.svg" alt="death" />
+      <span class="death">사망원인</span>
+    </div>
+    <div class="guide__item">
+      <img src="assets/icon/rectangle.svg" alt="change" />
+      <span class="change">신분변경</span>
+    </div>
+    <div class="guide__item">
+      <img src="assets/icon/break_heart.svg" alt="change" />
+      <span class="change">이혼</span>
+    </div>
+  </div>
+
+  <div class="family-tree {{ selectedFamily }}">
+    <ng-container *ngFor="let people of peopleList">
+      <div
+        class="member"
+        [class.married]="people.marriedLine"
+        [class.child]="people.hasChild" *ngIf="people.family_eng === selectedFamily || people.abode === selectedFamily"
+      >
+        <div class="member__profile">
+          <div
+            class="member__profile__img {{ people.family_eng }}-border"
+            [class.owner]="people.house_owner"
+            [class.death]="people.death != ''"
+          >
+            <img
+              src="assets/imgs/{{ people.family_eng }}/{{
+                people.profile_img
+              }}.png"
+              alt="img"
+            />
+          </div>
+          <div class="member__profile__name {{ people.family_eng }}-bg">
+            {{ people.family }} {{ people.name }}
+          </div>
+        </div>
+        <div class="member__info">
+          <div class="member__info__owner" *ngIf="people.house_owner">
+            <img src="assets/icon/star.svg" alt="owner" />
+            <ng-container *ngIf="people.generation == 0"
+              >{{ people.family }}가문 창시자</ng-container
+            >
+            <ng-container *ngIf="people.generation > 0"
+              >{{ people.generation }}대 가주</ng-container
+            >
+          </div>
+
+          <div
+            class="member__info__parent"
+            *ngIf="people.mother != '' && people.father != ''"
+          >
+            <img src="assets/icon/triangle.svg" alt="parent" />
+            <span
+              class="member__info__parent__mother {{
+                people.mother_family
+              }}-text"
+              >{{ people.mother }}+</span
+            >
+            <span
+              class="member__info__parent__father {{
+                people.father_family
+              }}-text"
+              >{{ people.father }}</span
+            >
+          </div>
+
+          <div
+            class="member__info__couple {{ people.couple_color }}-text"
+            *ngIf="people.couple != ''"
+          >
+            <img src="assets/icon/heart.svg" alt="couple" />{{
+              people.couple
+            }}
+            ({{ people.couple_class }})
+          </div>
+          <div class="member__info__divorce" *ngIf="people.divorce != ''">
+            <img src="assets/icon/break_heart.svg" alt="divorce" />{{
+              people.divorce
+            }}
+          </div>
+
+          <div class="member__info__death" *ngIf="people.death != ''">
+            <img src="assets/icon/asterisk.svg" alt="death" />{{ people.death }}
+          </div>
+
+          <div
+            class="member__info__change-class"
+            *ngIf="people.change_class != ''"
+          >
+            <img src="assets/icon/rectangle.svg" alt="change" />{{
+              people.change_class
+            }}
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</main>

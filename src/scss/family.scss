@@ -1,0 +1,35 @@
+@import "~src/styles";
+
+
+main {
+  .family-tree {
+    // 가족 구성원 위치 조정
+
+    .member {
+      &.married {
+        &::before {
+          position: absolute;
+          content: "";
+          min-width: 35px;
+          max-width: 50%;
+          height: 8px;
+          background-color: $c-pink;
+          top: 184px;
+          left: 148px;
+        }
+      }
+
+      &.child {
+        &::after {
+          position: absolute;
+          content: "";
+          width: 8px;
+          height: 35px;
+          bottom: -50px;
+          left: 45%;
+          background-color: $c-pink;
+        }
+      }
+    }
+  }
+}
