@@ -60,6 +60,12 @@ main {
           grid-column: 1/2;
           grid-row: 3/3;
         }
+
+        // 3세대 나타샤
+        &:nth-child(11) {
+          grid-column: 3/4;
+          grid-row: 3/3;
+        }
       }
     }
   }

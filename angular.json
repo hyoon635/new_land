@@ -126,5 +126,5 @@
         }
       }
     }},
-  "defaultProject": "new-land"
+  "defaultProject": "dist/new-land"
 }

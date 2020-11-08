@@ -9,7 +9,7 @@ main {
         }
         // 2세대 피스(케이틀린)
         &:nth-child(2) {
-          grid-column: 5/6;
+          grid-column: 4/5;
           grid-row: 2/2;
         }
         // 1세대 스카이
@@ -29,7 +29,7 @@ main {
         }
         //2세대 케이틀린
         &:nth-child(6) {
-          grid-column: 4/5;
+          grid-column: 3/4;
           grid-row: 2/2;
         }
         //3세대 리처드
@@ -44,12 +44,12 @@ main {
         }
         //3세대 다이어
         &:nth-child(9) {
-          grid-column: 2/3;
+          grid-column: 1/2;
           grid-row: 3/3;
         }
         //3세대 아나베스
         &:nth-child(10) {
-          grid-column: 3/4;
+          grid-column: 2/3;
           grid-row: 3/3;
         }
       }
