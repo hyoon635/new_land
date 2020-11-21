@@ -266,7 +266,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'brown_2_joshua',
     name: '조슈아',
     family: '브라운',
     family_eng: 'brown',
@@ -376,7 +376,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'gold_2_cynthia',
     name: '신시아',
     family: '골드',
     family_eng: 'gold',
@@ -530,8 +530,8 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
-    name: '제시',
+    profile_img: 'black_2_jessica',
+    name: '제시카',
     family: '블랙',
     family_eng: 'black',
     house_owner: false,
@@ -750,7 +750,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'red_2_ ashton',
     name: '애슈턴',
     family: '레드',
     family_eng: 'red',
@@ -882,7 +882,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'purple_2_jade',
     name: '제이드 ',
     family: '퍼플',
     family_eng: 'purple',
@@ -1014,7 +1014,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 1,
-    profile_img: '',
+    profile_img: 'orange_1_dana',
     name: '다나',
     family: '오렌지',
     family_eng: 'orange',
@@ -1146,7 +1146,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'green_2_wyatt',
     name: '와이엇',
     family: '그린',
     family_eng: 'green',
@@ -1207,7 +1207,7 @@ export const PEOPLELIST: people[] = [
     change_class: '',
     marriedLine: true,
     hasChild: true,
-    death: '',
+    death: '노령으로 사망',
     divorce: '',
   },
   {
@@ -1300,7 +1300,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'black_2_julian',
     name: '줄리안',
     family: '블랙',
     family_eng: 'black',
@@ -1322,7 +1322,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'red_2_jenny',
     name: '제니',
     family: '레드',
     family_eng: 'red',
@@ -1344,7 +1344,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'purple_2_jeremy',
     name: '제레미',
     family: '퍼플',
     family_eng: 'purple',
@@ -1367,7 +1367,7 @@ export const PEOPLELIST: people[] = [
 
   {
     generation: 1,
-    profile_img: '',
+    profile_img: 'orange_1_daniel',
     name: '다니엘',
     family: '오렌지',
     family_eng: 'orange',
@@ -1390,7 +1390,7 @@ export const PEOPLELIST: people[] = [
 
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'green_2_derek',
     name: '데릭',
     family: '그린',
     family_eng: 'green',
@@ -1413,7 +1413,7 @@ export const PEOPLELIST: people[] = [
 
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'pink_2_vanessa',
     name: '바네사',
     family: '핑크',
     family_eng: 'pink',
@@ -1436,7 +1436,7 @@ export const PEOPLELIST: people[] = [
 
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'pink_2_benjamin',
     name: '벤자민',
     family: '핑크',
     family_eng: 'pink',
@@ -1458,7 +1458,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'brown_2_iliana',
     name: '일리아나',
     family: '브라운',
     family_eng: 'brown',
@@ -1480,7 +1480,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'silver_2_dylon',
     name: '딜런',
     family: '실버',
     family_eng: 'silver',
@@ -1502,7 +1502,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'silver_2_hazelley',
     name: '헤이즐리',
     family: '실버',
     family_eng: 'silver',
@@ -1634,7 +1634,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'blue_2_dyer',
     name: '다이어',
     family: '블루',
     family_eng: 'blue',
@@ -1678,7 +1678,7 @@ export const PEOPLELIST: people[] = [
   },
   {
     generation: 2,
-    profile_img: '',
+    profile_img: 'gold_2_august',
     name: '오거스트',
     family: '골드',
     family_eng: 'gold',
