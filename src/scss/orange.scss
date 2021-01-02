@@ -2,37 +2,37 @@ main {
   .family-tree {
     &.orange {
       .member {
-        //미아
+        //1세대 미아
         &:nth-child(3) {
           grid-column: 4/5;
         }
-        //나디아
+        //1세대 나디아
         &:nth-child(4) {
           grid-column: 5/6;
         }
-        //만델리나
+        //1세대 만델리나
         &:nth-child(5) {
           grid-column: 6/6;
         }
-        //다나
+        //2세대 다나
         &:nth-child(6) {
-          grid-column: 2/3;
-          grid-row: 2/2;
-        }
-        //다니엘
-        &:nth-child(7) {
           grid-column: 3/4;
-          grid-row: 2/2;
         }
-        //알레이나
+        //2세대 블루 리처드(알레이나)
+        &:nth-child(7) {
+          grid-column: 2/3;
+        }
+        //2세대 다니엘
         &:nth-child(8) {
-          grid-column: 1/2;
-          grid-row: 2/2;
-        }
-        //카밀라
-        &:nth-child(9) {
           grid-column: 4/5;
-          grid-row: 2/2;
+        }
+        //2세대 알레이나
+        &:nth-child(9) {
+          grid-column: 1/2;
+        }
+        //2세대 카밀라
+        &:nth-child(10) {
+          grid-column: 5/6;
         }
       }
     }

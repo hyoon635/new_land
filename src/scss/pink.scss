@@ -9,19 +9,19 @@ main {
 
         // 2대 아이리스
         &:nth-child(3) {
-          grid-row: 2/2;
+          
         }
 
         //2대 빅토리아
         &:nth-child(4) {
           grid-column: 5/6;
-          grid-row: 2/2;
+          
         }
 
         //3대 블레어
         &:nth-child(5) {
-          grid-column: 2/3;
-          grid-row: 3/3;
+          grid-column: 4/5;
+          
         }
 
         //1대 트레버 (오브리)
@@ -39,19 +39,25 @@ main {
         //3대 바네사
         &:nth-child(8) {
           grid-column: 1/2;
-          grid-row: 3/3;
+          
         }
 
         //3대 벤자민
         &:nth-child(9) {
-          grid-column: 3/4;
-          grid-row: 3/3;
+          grid-column: 5/6;
+          
         }
 
-        //3대 로렌초
+        //3대 오거스트(바네사)
         &:nth-child(10) {
-          grid-column: 4/5;
-          grid-row: 3/3;
+          grid-column: 2/3;
+          
+        }
+
+        //3대 빅터
+        &:nth-child(11) {
+          grid-column: 6/7;
+          
         }
       }
     }

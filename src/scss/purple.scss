@@ -5,42 +5,35 @@ main {
         // 1세대 로버트(바이올렛)
         &:nth-child(2) {
           grid-column: 2/3;
-          grid-row: 1/2;
         }
 
         // 1세대 바이올렛
         &:nth-child(2) {
           grid-column: 1/2;
-          grid-row: 1/2;
         }
 
         // 1세대 부
         &:nth-child(3) {
           grid-column: 5/6;
-          grid-row: 1/2;
         }
 
         //2세대 애단
         &:nth-child(4) {
-          grid-row: 2/2;
         }
 
         //2세대 르네
         &:nth-child(5) {
-          grid-column: 3/4;
-          grid-row: 2/2;
+          grid-column: 6/7;
         }
 
         //2세대 에릭
         &:nth-child(6) {
           grid-column: 4/5;
-          grid-row: 2/2;
         }
 
         // 3세대 제이드
         &:nth-child(7) {
-          grid-column: 2/3;
-          grid-row: 3/3;
+          grid-column: 3/4;
         }
 
         //2세대 만델리나(애단)
@@ -51,20 +44,27 @@ main {
 
         // 3세대 제레미
         &:nth-child(9) {
-          grid-column: 3/4;
-          grid-row: 3/3;
-        }
-
-            // 3세대 조안나
-        &:nth-child(10) {
           grid-column: 4/5;
-          grid-row: 3/3;
         }
 
-            // 3세대 사샤
+        // 3세대 딜런(조안나 파트너)
+        &:nth-child(10) {
+          grid-column: 2/3;
+        }
+
+        // 3세대 사샤
         &:nth-child(11) {
+          grid-column: 5/6;
+        }
+
+        // 3세대 조안나
+        &:nth-child(12) {
           grid-column: 1/2;
-          grid-row: 3/3;
+        }
+
+        // 3세대 에이드리엔
+        &:nth-child(13) {
+          grid-column: 6/7;
         }
       }
     }

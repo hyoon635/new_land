@@ -2,64 +2,66 @@ main {
   .family-tree {
     &.silver {
       .member {
-      // 2세대 빅토리아(라파엘)
-         &:nth-child(1) {
-        grid-column: 4/5;
-        grid-row: 2/2;
-      }
+        // 2세대 빅토리아(라파엘)
+        &:nth-child(1) {
+          grid-column: 5/6;
+        }
 
-      // 2세대 백단(달리아)
-      &:nth-child(2) {
-        grid-column: 2/3;
-        grid-row: 2/2;
-      }
+        // 2세대 백단(달리아)
+        &:nth-child(2) {
+          grid-column: 2/3;
+        }
 
-      // 1세대 케일리
-      &:nth-child(3) {
-        grid-column: 1/2;
-      }
+        // 1세대 케일리
+        &:nth-child(3) {
+          grid-column: 1/2;
+        }
 
-      // 1세대 케니
-      &:nth-child(4) {
-        grid-column: 5/6;
-      }
+        // 1세대 케니
+        &:nth-child(4) {
+          grid-column: 5/6;
+        }
 
-      //2세대 달리아
-      &:nth-child(5) {
-        grid-column: 1/2;
-        grid-row: 2/2;
-      }
+        //2세대 달리아
+        &:nth-child(5) {
+          grid-column: 1/2;
+        }
 
-      //2세대 라파엘
-      &:nth-child(6) {
-        grid-column: 3/4;
-        grid-row: 2/2;
-      }
+        //2세대 라파엘
+        &:nth-child(6) {
+          grid-column: 4/5;
+        }
 
-      //3세대 케니스
-      &:nth-child(7) {
-        grid-column: 3/4;
-        grid-row: 3/3;
-      }
+        //3세대 케니스
+        &:nth-child(7) {
+          grid-column: 4/5;
+        }
 
-      //1세대 부 (케일리)
-      &:nth-child(8) {
-        grid-column: 2/3;
-        grid-row: 1/2;
-      }
+        //1세대 부 (케일리)
+        &:nth-child(8) {
+          grid-column: 2/3;
+        }
 
-         //3세대 딜런
-      &:nth-child(9) {
-        grid-column: 2/3;
-        grid-row: 3/3;
-      }
+        //3세대 데릭(헤이즐리)
+        &:nth-child(9) {
+          grid-column: 2/3;
+        }
 
-         //3세대 헤이즐리
-      &:nth-child(10) {
-        grid-column: 1/2;
-        grid-row: 3/3;
+        //3세대 딜런
+        &:nth-child(10) {
+          grid-column: 3/4;
+        }
+
+        //3세대 헤이즐리
+        &:nth-child(11) {
+          grid-column: 1/2;
+        }
+
+        //4세대 앙젤리크
+        &:nth-child(12) {
+          grid-column: 1/2;
+        }
       }
     }
   }
-}
 }

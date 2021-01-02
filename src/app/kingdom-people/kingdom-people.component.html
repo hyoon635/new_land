@@ -46,7 +46,7 @@
   <div class="family-tree {{ selectedFamily }}">
     <ng-container *ngFor="let people of peopleList">
       <div
-        class="member"
+        class="member row-{{people.generation}}"
         [class.married]="people.marriedLine"
         [class.child]="people.hasChild" *ngIf="people.family_eng === selectedFamily || people.abode === selectedFamily"
       >
